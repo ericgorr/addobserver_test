@@ -9,19 +9,26 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate
+{
+    @IBOutlet weak var window:              NSWindow!
+    @IBOutlet weak var theContentView:      NSView!
+    
 
-    @IBOutlet weak var window: NSWindow!
-
-
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+    
+    func applicationDidFinishLaunching(aNotification: NSNotification)
+    {
+        let addViewController  = ADDViewController()
+        let addView            = addViewController.view
+        
+        theContentView?.addSubview( addView )
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+    
+    
+    func applicationWillTerminate(aNotification: NSNotification)
+    {
+        
     }
-
-
 }
 

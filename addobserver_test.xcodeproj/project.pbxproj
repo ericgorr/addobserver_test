@@ -11,6 +11,8 @@
 		B753D3F71B8A5D5B00B01C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B753D3F61B8A5D5B00B01C79 /* Images.xcassets */; };
 		B753D3FA1B8A5D5B00B01C79 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B753D3F81B8A5D5B00B01C79 /* MainMenu.xib */; };
 		B753D4061B8A5D5B00B01C79 /* addobserver_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B753D4051B8A5D5B00B01C79 /* addobserver_testTests.swift */; };
+		B753D4171B8A7DCB00B01C79 /* ADDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B753D4151B8A7DCB00B01C79 /* ADDViewController.swift */; };
+		B753D4181B8A7DCB00B01C79 /* ADDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B753D4161B8A7DCB00B01C79 /* ADDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		B753D3FF1B8A5D5B00B01C79 /* addobserver_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addobserver_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B753D4041B8A5D5B00B01C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B753D4051B8A5D5B00B01C79 /* addobserver_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addobserver_testTests.swift; sourceTree = "<group>"; };
+		B753D4151B8A7DCB00B01C79 /* ADDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDViewController.swift; sourceTree = "<group>"; };
+		B753D4161B8A7DCB00B01C79 /* ADDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				B753D3F41B8A5D5B00B01C79 /* AppDelegate.swift */,
+				B753D4151B8A7DCB00B01C79 /* ADDViewController.swift */,
+				B753D4161B8A7DCB00B01C79 /* ADDViewController.xib */,
 				B753D3F61B8A5D5B00B01C79 /* Images.xcassets */,
 				B753D3F81B8A5D5B00B01C79 /* MainMenu.xib */,
 				B753D3F21B8A5D5B00B01C79 /* Supporting Files */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B753D3F71B8A5D5B00B01C79 /* Images.xcassets in Resources */,
+				B753D4181B8A7DCB00B01C79 /* ADDViewController.xib in Resources */,
 				B753D3FA1B8A5D5B00B01C79 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B753D4171B8A7DCB00B01C79 /* ADDViewController.swift in Sources */,
 				B753D3F51B8A5D5B00B01C79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
